@@ -1,0 +1,28 @@
+name: 787a68-eHpo-Rules-sync
+on:
+  schedule:
+    - cron: '45 */3 * * *'
+  workflow_dispatch:
+  watch:
+    types: started
+  repository_dispatch:
+    types: sync-787a68-eHpo-Rules
+jobs:
+  repo-sync:
+    env:
+      PAT: ${{ secrets.PAT }} 
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: sync 787a68-eHpo-Rules
+        uses: repo-sync/github-sync@v2
+        if: env.PAT
+        with:
+          source_repo: "https://github.com/787a68/Rules.git"
+          source_branch: "master"
+          destination_branch: "787a68-eHpo-Rules"
+          github_token: ${{ secrets.PAT }}
