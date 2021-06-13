@@ -1,4 +1,6 @@
 ## 注释
+2021.6.13 langkhach270389-Scripting仓库已经删除
+
 2021.6.10 ZhiYi-Private-Script仓库已私有
 
 2021.6.6 monk仓库已经删除，同步脚步删除
