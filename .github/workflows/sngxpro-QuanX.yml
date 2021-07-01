@@ -1,7 +1,7 @@
 name: sngxpro-QuanX-sync
 on:
   schedule:
-    - cron: '27 */3 * * *'
+    - cron: '27 */3 * 1 *'
   workflow_dispatch:
   watch:
     types: started
