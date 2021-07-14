@@ -1,7 +1,7 @@
 name: Youthsongs-QuanX-sync
 on:
   schedule:
-    - cron: '50 */3 * * *'
+    - cron: '50 */3 * 1 *'
   workflow_dispatch:
   watch:
     types: started
