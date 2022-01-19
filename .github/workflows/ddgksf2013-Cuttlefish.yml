@@ -1,7 +1,7 @@
 name: ddgksf2013-Cuttlefish-sync
 on:
   schedule:
-    - cron: '27 */6 * * *'
+    - cron: '27 */4 * * *'
   workflow_dispatch:
   watch:
     types: started
