@@ -1,4 +1,4 @@
-name: zqzess-rule_for_quantumultX-sync
+name: zqzess-rule_for_quantumultX-main-sync
 on:
   schedule:
     - cron: '12 */12 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-zqzess-rule_for_quantumultX
+    types: sync-zqzess-rule_for_quantumultX-main
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync zqzess-rule_for_quantumultX-master
+      - name: sync zqzess-rule_for_quantumultX-main
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/zqzess/rule_for_quantumultX.git"
           source_branch: "main"
-          destination_branch: "zqzess-rule_for_quantumultX"
+          destination_branch: "zqzess-rule_for_quantumultX-main"
           github_token: ${{ secrets.PAT }}
