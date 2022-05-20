@@ -1,7 +1,7 @@
 name: lhie1-Rules-sync
 on:
   schedule:
-    - cron: '32 */3 * * *'
+    - cron: '32 */3 * 1 *'
   workflow_dispatch:
   watch:
     types: started
