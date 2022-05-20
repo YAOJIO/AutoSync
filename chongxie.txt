@@ -60,7 +60,7 @@ hostname = m.jd.com, www.zhihu.com, zhuanlan.zhihu.com, www.baidu.com, www.googl
 ^https?:\/\/image\.spdbccc\.com\.cn\/group1\/M00\/86\/*\/.*.jpg url reject-200
 ^https?:\/\/image\.spdbccc\.com\.cn\/group1\/M00\/8C\/45\/.*.jpg url reject-200
 # > 浦发银行
-^https?:\/\/mlmdacdn\.spdb\.com\.cn\/oss\/product-mm\/app\/default\/.*.(jpg|gif) url reject-200
+^https?:\/\/mlmdacdn\.spdb\.com\.cn\/oss\/product-mm\/app\/default\/.*.(jpg|png|gif) url reject-200
 # > 建行生活
 ^https://res.yunbusiness.ccb.com/service/resource/mng/adMng/2022/202203/20220325/20220325070000000078/b406caab-da67-40fd-bda8-4317af93f49e.jpg url reject
 # > 华彩生活
