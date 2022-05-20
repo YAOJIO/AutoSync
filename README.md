@@ -13,6 +13,8 @@
 
 2021.7.1 sngxpro-QuantumultX修改了运行时间，暂时停运行
 
+2021.6.13 feizao-仓库已经删除，同步脚步删除
+
 2021.6.13 langkhach270389-Scripting仓库已经删除，同步脚步删除
 
 2021.6.10 ZhiYi-Private-Script仓库已私有，同步脚步删除
