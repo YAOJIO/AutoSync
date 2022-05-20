@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/zqzess/rule_for_quantumultX.git"
-          source_branch: "master"
+          source_branch: "main"
           destination_branch: zqzess-rule_for_quantumultX"
           github_token: ${{ secrets.PAT }}
