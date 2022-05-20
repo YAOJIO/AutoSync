@@ -1,7 +1,7 @@
 name: zqzess-rule_for_quantumultX-sync
 on:
   schedule:
-    - cron: '12 */12 * * *'
+    - cron: '11 */12 * * *'
   workflow_dispatch:
   watch:
     types: started
