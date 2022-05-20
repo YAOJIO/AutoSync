@@ -17,6 +17,8 @@
 
 2021.6.6 monk仓库已经删除，同步脚步删除
 
+2021.6.6 lxk0301-ElsaKing-DogDog，同步脚步删除
+
 ### AutoSyncScript项目介绍
 ```
 此项目用于定时拉取github上各作者的脚本备份。
