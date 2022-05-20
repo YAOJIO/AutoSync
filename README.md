@@ -1,6 +1,8 @@
 ## 注释
 2022.5.20 上传新的同步项目
 
+2021.7.19 lhie1-Rules删库，暂时停运行
+
 2021.7.14 Youthsongs-QuantumultX修改了运行时间，暂时停运行
 
 2021.7.14 Youthsongs-QuanX修改了运行时间，暂时停运行
