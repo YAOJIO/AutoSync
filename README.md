@@ -1,6 +1,7 @@
 ## 注释
 2022.5.20 上传新的同步项目
 
+```
 2021.7.19 lhie1-Rules删库，暂时停运行
 
 2021.7.14 Youthsongs-QuantumultX修改了运行时间，暂时停运行
@@ -24,6 +25,7 @@
 2021.6.6 monk仓库已经删除，同步脚步删除
 
 2021.6.6 lxk0301-ElsaKing-DogDog，同步脚步删除
+```
 
 ### AutoSyncScript项目介绍
 ```
