@@ -3,29 +3,29 @@
 
 ## 删除或暂停的库
 ```
-2021.7.19 lhie1-Rules删库，暂时停运行
+12. 2021.7.19 lhie1-Rules删库，暂时停运行
 
-2021.7.14 Youthsongs-QuantumultX修改了运行时间，暂时停运行
+11. 2021.7.14 Youthsongs-QuantumultX修改了运行时间，暂时停运行
 
-2021.7.14 Youthsongs-QuanX修改了运行时间，暂时停运行
+10. 2021.7.14 Youthsongs-QuanX修改了运行时间，暂时停运行
 
-2021.7.3 ningmeng-JavaScript修改了运行时间，暂时停运行
+09. 2021.7.3 ningmeng-JavaScript修改了运行时间，暂时停运行
 
-2021.7.1 sngxpro-QuantX修改了运行时间，暂时停运行
+08. 2021.7.1 sngxpro-QuantX修改了运行时间，暂时停运行
 
-2021.7.1 sngxpro-QuantumultX修改了运行时间，暂时停运行
+07. 2021.7.1 sngxpro-QuantumultX修改了运行时间，暂时停运行
 
-2021.6.13 passerby-b-JavaScript仓库已经删除，同步脚步删除
+06. 2021.6.13 passerby-b-JavaScript仓库已经删除，同步脚步删除
 
-2021.6.13 feizao-仓库已经删除，同步脚步删除
+05. 2021.6.13 feizao-仓库已经删除，同步脚步删除
 
-2021.6.13 langkhach270389-Scripting仓库已经删除，同步脚步删除
+04. 2021.6.13 langkhach270389-Scripting仓库已经删除，同步脚步删除
 
-2021.6.10 ZhiYi-Private-Script仓库已私有，同步脚步删除
+03. 2021.6.10 ZhiYi-Private-Script仓库已私有，同步脚步删除
 
-2021.6.6 monk仓库已经删除，同步脚步删除
+02. 2021.6.6 monk仓库已经删除，同步脚步删除
 
-2021.6.6 lxk0301-ElsaKing-DogDog，同步脚步删除
+01. 2021.6.6 lxk0301-ElsaKing-DogDog，同步脚步删除
 ```
 
 ### AutoSyncScript项目介绍
