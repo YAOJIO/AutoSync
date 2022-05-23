@@ -1619,8 +1619,8 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 # > 微店
 ^https?+:\/\/thor\.weidian\.com\/ares\/home\.splash\/ url reject-200
 # > 滴滴青桔
-^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api
-^https?:\/\/omgup*\.xiaojukeji\.com\/api
+^https?:\/\/omgup[0-9]{1}\.xiaojukeji\.com\/api url reject-200
+^https?:\/\/omgup*\.xiaojukeji\.com\/api url reject-200
 # > 其他广告
 ^https?+:\/\/nochange\.ggsafe\.com\/ad\/ url reject-200
 ^https?+:\/\/pic\.edaijia\.cn\/adsplash\/ url reject-200
