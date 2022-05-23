@@ -40,7 +40,7 @@ hostname = m.jd.com, www.zhihu.com, zhuanlan.zhihu.com, www.baidu.com, www.googl
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ url reject-200
 ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00/25/F3\/ url reject-200
 # > 中国工商银行
-^https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
+#^https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
 # > 工银E生活
 ^https?:\/\/image2\.elife\.icbc\.com\.cn\/filepath\/elife\/2022\/*\/*\/*\/.*.jpg url reject-200
 # > 招商银行
