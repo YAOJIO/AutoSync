@@ -116,6 +116,8 @@ HOST-SUFFIX,bazinga.mse.sogou.com, reject
 HOST-SUFFIX,bite.theta.sogoucdn.com, reject
 HOST-SUFFIX,brand.sogou.com, reject
 HOST-SUFFIX,bsiet.husky.sogou.com, reject
+# > 搜狗输入法
+host-keyword, business-cdn.shouji.sogou.com, reject
 ## QQ音乐广告
 HOST,tmeadcomm.y.qq.com, reject
 HOST,ad.tencentmusic.com, reject
