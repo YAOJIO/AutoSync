@@ -1,6 +1,6 @@
 ## /*  APP开屏广告拦截，APP启动广告拦截！
 ##  a28413761  收集整理
-## 更新时间  2022.05.20
+## 更新时间  2022.05.23
 ## */  
 
 # > 光大银行阳光惠生活
@@ -90,14 +90,7 @@ HOST-SUFFIX,webstat.kuwo.cn, reject
 HOST-SUFFIX,mobilead.kuwo.cn, reject
 HOST-SUFFIX,rich.kuwo.cn, reject
 # > 向日葵
-host, dm.toutiao.com, reject
 host-keyword, upload-cdn.orayimg.com, reject
-host, ddns.oray.com, reject
-host, sl-tk.oray.com, reject
-host, client-api.oray.com, reject
-host, push.oray.com, reject
-HOST-SUFFIX,offline-adv.oray.com, reject
-host-keyword, upload-cdn.orayimg.com-upload-activity, reject
 # > 小利生活
 host-keyword, mpos-pic.helipay.com, reject
 # > 懂车帝
@@ -726,6 +719,7 @@ host-keyword, config.51y5.net, reject
 host-keyword, static.wkanx.com, reject
 host-keyword, config.y5en.com, reject
 # > 今日头条
+host, dm.toutiao.com, reject
 host-keyword, ad.toutiao.com, reject
 host-keyword, clk.gentags.net, reject
 host-keyword, dm.toutiao.com, reject
