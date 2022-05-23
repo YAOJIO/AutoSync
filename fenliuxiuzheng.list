@@ -1,0 +1,14 @@
+# > 苹果推送服务
+host-keyword, courier.push.apple.com, direct
+host-keyword, courier-ab-vs.push.apple.com, direct
+# > 苹果时间同步
+host, time.apple.com, direct
+# > 苹果icloud
+host, metrics.icloud.com, direct
+host, probe.icloud.com, direct
+# > 苹果输入法相关服务
+host-keyword, api.smoot.apple.com, direct
+# > 苹果iMessage服务
+host, init.ess.apple.com, direct
+# > 苹果其他服务
+host, smp-device-content.apple.com, direct
