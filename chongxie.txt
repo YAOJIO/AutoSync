@@ -1474,6 +1474,7 @@ https://new-app-api.ylyk.com/v1/user/myinfo/adviser url reject
 # > 滴滴出行（推荐英文版）
 https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
+# > 滴滴
 ^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/ url reject
 # > 宝宝树
 ^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg url reject-200
@@ -1595,7 +1596,6 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?:\/\/iflow\.uczzd\.cn\/log\/ url reject
 ^https?:\/\/image\.airav\.cc\/AirADPic\/.+?\.gif url reject-img
 ^https?:\/\/images\.kartor\.cn\/.+?\.html url reject-img
-^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/ url reject
 ^https?:\/\/img\.53site\.com\/Werewolf\/AD\/ url reject-img
 ^https?:\/\/img\.ihytv\.com\/material\/adv\/img\/ url reject-img
 ^https?:\/\/iphone265g\.com\/templates\/iphone\/bottomAd\.js url reject-img
