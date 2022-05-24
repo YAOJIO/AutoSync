@@ -3,8 +3,7 @@
 # >  */  
 
 # > 苹果推送服务
-host-keyword, courier.push.apple.com, direct
-host-keyword, courier-ab-vs.push.apple.com, direct
+host-keyword, push.apple.com, direct
 # > 苹果时间同步
 host, time.apple.com, direct
 # > 苹果icloud
