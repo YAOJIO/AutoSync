@@ -14,6 +14,7 @@ host, probe.icloud.com, direct
 host, setup.icloud.com, direct
 # > 苹果输入法相关服务
 host-keyword, api.smoot.apple.com, direct
+host-keyword, api.smoot.apple.cn, direct
 # > 苹果iMessage服务
 host, init.ess.apple.com, direct
 # > 苹果其他服务
