@@ -10,7 +10,6 @@ host, time.apple.com, direct
 host-keyword, weather-adge.apple.com, direct
 # > 苹果icloud
 host-keyword, icloud.com, direct
-host-keyword, icloud.com.cn, direct
 # > 苹果输入法相关服务
 host-keyword, api.smoot.apple.com, direct
 host-keyword, api.smoot.apple.cn, direct
