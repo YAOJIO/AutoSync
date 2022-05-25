@@ -122,7 +122,6 @@ hostname = m.jd.com, www.zhihu.com, zhuanlan.zhihu.com, www.baidu.com, www.googl
 ^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject-200
 ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ url reject
 ^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
-^http:\/\/ems\.youku\.com\/imp\? url reject
 # > 优酷
 ^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku url reject
 ^https?:\/\/.+?\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid= url reject
@@ -136,6 +135,7 @@ hostname = m.jd.com, www.zhihu.com, zhuanlan.zhihu.com, www.baidu.com, www.googl
 ^https?:\/\/.+?\.atm\.youku\.com url reject
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) url reject-img
 ^https?:\/\/[\s\S]*\/youku\/.*?\.mp4 url reject-img
+^http:\/\/ems\.youku\.com\/imp\? url reject
 # > 芒果TV
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 # > AcFun弹幕视频网
