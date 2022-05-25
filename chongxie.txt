@@ -668,11 +668,29 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise url reject
 # > 淘票票
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ url reject
-# > 什么值得买
-^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject-200
-^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php url reject-200
-^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner url reject
-^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) url reject-200
+# > 什么值得买去广告
+# > 什么值得买好价详情页
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul url reject
+# > 什么值得买好价详情页红包小助手
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul url reject
+# > 什么值得买Wiki(618晒物活动推广，将来可能不是广告)
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul url reject
+# > 什么值得买开屏广告
+^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买首页广告
+^https?:\/\/homepage-api\.smzdm\.com\/v3\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买好价广告
+^https?:\/\/haojia-api\.smzdm\.com\/home\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买好价详情页广告
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买百科广告
+^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买搜索结果广告
+^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买搜索标签广告
+^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+# > 什么值得买值会员权益中心banner广告
+^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 # >> 新浪微博
 ^https?:\/\/adimg\.uve\.weibo\.com\/public\/files\/image url reject
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php url reject-200
