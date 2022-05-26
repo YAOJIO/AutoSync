@@ -974,14 +974,21 @@ HOST-KEYWORD,adstrategy.biz.weibo.com,REJECT
 HOST-KEYWORD,s.weibo.com,REJECT
 HOST-KEYWORD,vs.biz.weibo.com,REJECT
 # > 喜马拉雅
-HOST,ad.ximalaya.com, reject
-HOST,adbs.ximalaya.com, reject
-HOST,adse.ximalaya.com, reject
-HOST,adse.wsa.ximalaya.com, reject
-HOST,adbehavior.wsa.ximalaya.com, reject
 HOST,adbehavior.ximalaya.com, reject
-HOST,adsebs.ximalaya.com, reject
 HOST,adwbs.ximalaya.com, reject
+HOST-SUFFIX,ad.test.ximalaya.com, reject
+HOST-SUFFIX,adse.test.ximalaya.com, reject
+HOST-SUFFIX,adweb.test.ximalaya.com, reject
+HOST-SUFFIX,adweb.ximalaya.com, reject
+HOST-SUFFIX,linkeye.ximalaya.com, reject
+HOST-SUFFIX,location.ximalaya.com, reject
+HOST-SUFFIX,xdcs-collector.ximalaya.com, reject
+HOST-SUFFIX,ad.ximalaya.com, reject
+HOST-SUFFIX,adse.ximalaya.com, reject
+HOST-SUFFIX,adse.wsa.ximalaya.com, reject
+HOST-SUFFIX,adbehavior.wsa.ximalaya.com, reject
+HOST-SUFFIX,adsebs.ximalaya.com, reject
+HOST-SUFFIX,adbs.ximalaya.com, reject
 # >小红书
 HOST,ads-img-qc.xhscdn.com, reject
 HOST,ads-video-al.xhscdn.com, reject
@@ -2176,7 +2183,6 @@ HOST-SUFFIX,ad.spielothek.so, reject
 HOST-SUFFIX,ad.spreaker.com, reject
 HOST-SUFFIX,ad.stsywl.com, reject
 HOST-SUFFIX,ad.tatatimes.com, reject
-HOST-SUFFIX,ad.test.ximalaya.com, reject
 HOST-SUFFIX,ad.thepaper.cn, reject
 HOST-SUFFIX,ad.thisav.com, reject
 HOST-SUFFIX,ad.thsi.cn, reject
@@ -2401,7 +2407,6 @@ HOST-SUFFIX,adsclick.yx.js.cn, reject
 HOST-SUFFIX,adsco.re, reject
 HOST-SUFFIX,adscript.gmarket.co.kr, reject
 HOST-SUFFIX,adsdk.9imobi.com, reject
-HOST-SUFFIX,adse.test.ximalaya.com, reject
 HOST-SUFFIX,adserve2.tom.com, reject
 HOST-SUFFIX,adsfactor.net, reject
 HOST-SUFFIX,adsfs.oppomobile.com, reject
@@ -2448,8 +2453,6 @@ HOST-SUFFIX,adview.cn, reject
 HOST-SUFFIX,advmob.cn, reject
 HOST-SUFFIX,advombat.ru, reject
 HOST-SUFFIX,adwasu.wasu.tv, reject
-HOST-SUFFIX,adweb.test.ximalaya.com, reject
-HOST-SUFFIX,adweb.ximalaya.com, reject
 HOST-SUFFIX,adwo.com, reject
 HOST-SUFFIX,adx.adxglobal.com, reject
 HOST-SUFFIX,adx.chip.de, reject
@@ -5665,7 +5668,6 @@ HOST-SUFFIX,lightson.vpsboard.com, reject
 HOST-SUFFIX,linezing.com, reject
 HOST-SUFFIX,lingdian98.com, reject
 HOST-SUFFIX,linkbide.com, reject
-HOST-SUFFIX,linkeye.ximalaya.com, reject
 HOST-SUFFIX,linkpage.cn, reject
 HOST-SUFFIX,linyao.dxsdb.com, reject
 HOST-SUFFIX,lishuanghao.com, reject
@@ -5699,7 +5701,6 @@ HOST-SUFFIX,loading.baofeng5.baofeng.net, reject
 HOST-SUFFIX,loadm.exelator.com, reject
 HOST-SUFFIX,loandatec.com, reject
 HOST-SUFFIX,localnetwork.uop, reject
-HOST-SUFFIX,location.ximalaya.com, reject
 HOST-SUFFIX,locdrop.query.yahoo.com, reject
 HOST-SUFFIX,log1.17173.com, reject
 HOST-SUFFIX,log1.molitv.cn, reject
@@ -8508,7 +8509,6 @@ HOST-SUFFIX,xd.code.tanwanyx.com, reject
 HOST-SUFFIX,xdadevelopers.browsi.mobi, reject
 HOST-SUFFIX,xdbwc.com, reject
 HOST-SUFFIX,xdcqcyp.com, reject
-HOST-SUFFIX,xdcs-collector.ximalaya.com, reject
 HOST-SUFFIX,xdyjt.com, reject
 HOST-SUFFIX,xe2c.com, reject
 HOST-SUFFIX,xf.yellowto.com, reject
@@ -9119,10 +9119,6 @@ HOST-SUFFIX,ulogs.umengcloud.com, reject
 HOST-SUFFIX,a.wkanx.com, reject
 HOST-SUFFIX,cwx.lianwangtech.com, reject
 HOST-SUFFIX,c1wx.lianwangtech.com, reject
-HOST-SUFFIX,ad.ximalaya.com, reject
-HOST-SUFFIX,adse.ximalaya.com, reject
-HOST-SUFFIX,adse.wsa.ximalaya.com, reject
-HOST-SUFFIX,adbehavior.wsa.ximalaya.com, reject
 HOST-SUFFIX,apm-track.xiaohongshu.com, reject
 HOST-SUFFIX,t-ads.xiaohongshu.com, reject
 HOST-SUFFIX,ad.mobile.youku.com, reject
@@ -9318,12 +9314,10 @@ HOST-SUFFIX,toots-a.akamaihd.net, reject
 HOST-SUFFIX,optimus-ads.amap.com.w.alikunlun.com, reject
 HOST-SUFFIX,yt-adp.ws.126.net, reject
 HOST-SUFFIX,alog.umeng.co, reject
-HOST-SUFFIX,adsebs.ximalaya.com, reject
 HOST-SUFFIX,ad.360in.com, reject
 HOST-SUFFIX,ad.hpplay.cn, reject
 HOST-SUFFIX,adeng.hpplay.cn, reject
 HOST-SUFFIX,rp.hpplay.cn, reject
-HOST-SUFFIX,adbs.ximalaya.com, reject
 HOST-SUFFIX,appcpi.net, reject
 HOST-SUFFIX,bulldogcpi.com, reject
 HOST-SUFFIX,insurads.com, reject
