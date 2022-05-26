@@ -575,7 +575,7 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON url reje
 ^https?+:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ url reject-200
 ^https?+:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(?>splash_ad|ad_urls) url reject-200
 # > 喜马拉雅
-^https?:\/\/imagev2\.tx.xmcdn\.com\/storages\/a-zA-Z0-9]{4}-audiofreehighqps\/*\/*\/.*.(png|jpg) url reject-200
+^https?:\/\/imagev2\.tx.xmcdn\.com\/storages\/[a-zA-Z0-9]{4}-audiofreehighqps\/*\/*\/[a-zA-Z0-9]{24}\.(png|jpg) url reject-200
 ^https?:\/\/imagev2\.tx.xmcdn\.com\/group[0-9]{2}\/M[0-9]{2}\/*\/*\/.*.(png|jpg) url reject-200
 # > 小红书
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/xiaohongshu.ad.js
