@@ -55,11 +55,9 @@ hostname = m.jd.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, www.baid
 ^https:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png url reject-200
 # > .*.png url reject-200 所有png类型图片都拦截
 # > 浦大喜奔（倒计时还在）
+^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[0-9]{2}\/[a-zA-Z0-9]{30}\.jpg url reject-200
 #https://image.spdbccc.com.cn/group2/M00/8B/67/rBsZJmJhUzuAYookAAPZXatr3Jc894.jpg url 302 https://gitee.com/a28413761/tupian/raw/master/ssyy1.jpg
 # >  url 302 将前面的链接替换（重定向）为后面的链接
-^https?:\/\/image\.spdbccc\.com\.cn\/group2\/M00\/8B\/*\/.*.jpg url reject-200
-^https?:\/\/image\.spdbccc\.com\.cn\/group1\/M00\/86\/*\/.*.jpg url reject-200
-^https?:\/\/image\.spdbccc\.com\.cn\/group1\/M00\/8C\/45\/.*.jpg url reject-200
 # > 浦发银行
 ^https?:\/\/mlmdacdn\.spdb\.com\.cn\/oss\/product-mm\/app\/default\/.*.(jpg|png|gif) url reject-200
 # > 建行生活
