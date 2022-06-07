@@ -1052,7 +1052,8 @@ ctier=[A-Z] url 302 ctier=A
 # > 富途牛牛
 ^https?:\/\/api\d\.futunn\.com\/ad\/ url reject
 ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ url reject
-# > 挂号网
+# > 挂号网（微医）
+^https?:\/\/kano\.guahao\.cn\/[a-zA-Z0-9]{12} url reject-200
 ^https?:\/\/kano\.guahao\.cn\/.+?\?resize=\d{3}-\d{4} url reject-img
 ^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad url reject
 # > 丁香医生
