@@ -69,7 +69,7 @@ hostname = m.jd.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, www.baid
 # > 中信银行
 #^https?:\/\/imcs\.citicbank\.com\/cloud\/.*.(jpg|png) url reject-200
 ^https?:\/\/imcs\.citicbank\.com\/cloud\/[a-zA-Z0-9]{32}\.(jpg|png)\?width=[0-9]{3}&height=[0-9]{4} url reject-200
-^https?:\/\/imcs\.citicbank\.com\/cloud\/[a-zA-Z0-9]{32}\.jpg\?width=[0-9]{4}&height=[0-9]{4} url reject-200
+^https?:\/\/imcs\.citicbank\.com\/cloud\/[a-zA-Z0-9]{32}\.(jpg|jpeg)\?width=[0-9]{4}&height=[0-9]{4} url reject-200
 # > 动卡空间
 ^https?:\/\/m\.citiccardcdn\.citicbank\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/20221[0-2]{1}\d{18}\.(png|jpg) url reject-200
 ^https?:\/\/m\.citiccardcdn\.citicbank\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/20220[5-9]{1}\d{18}\.(png|jpg) url reject-200
