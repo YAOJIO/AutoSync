@@ -28,6 +28,7 @@ HOST-SUFFIX,jpush.html5.qq.com, reject
 host-keyword, assets.51downapp.cn, reject
 # > 叮嗒出行
 host-keyword, image.bianxianmao.com, reject
+ip-cidr, 203.107.1.1/24, reject
 # > 酷狗音乐
 host-keyword, searchrecommend.kugou.com, reject
 host-keyword, nbcollectretry.kugou.com, reject
@@ -292,7 +293,6 @@ host, tnc3-aliec2.snssdk.com, reject
 host, sf3-fe-tos.pglstatp-toutiao.com, reject
 # > 交管12123
 host, static.122.gov.cn, reject
-ip-cidr, 203.107.1.1/24, reject
 HOST-SUFFIX, v3.fstats.xyz, reject
 HOST-SUFFIX, wss.haoyundmn.com, reject 
 HOST-SUFFIX, new.xiongzhangad.com, reject  
