@@ -2,6 +2,9 @@
 # >  a28413761  收集整理
 # >  */  
 
+# > 苹果AppStore
+host, apps.apple.com, direct
+host, itunes.apple.com, direct
 # > 苹果推送服务
 host-keyword, push.apple.com, direct
 # > 苹果时间同步
