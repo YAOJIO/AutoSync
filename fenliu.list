@@ -26,6 +26,8 @@ HOST-SUFFIX,im.jpush.cn, reject
 HOST-SUFFIX,jpush.html5.qq.com, reject
 # > 哈啰
 host-keyword, assets.51downapp.cn, reject
+# > 叮嗒出行
+host-keyword, image.bianxianmao.com, reject
 # > 酷狗音乐
 host-keyword, searchrecommend.kugou.com, reject
 host-keyword, nbcollectretry.kugou.com, reject
