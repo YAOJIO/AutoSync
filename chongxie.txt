@@ -1004,7 +1004,7 @@ ctier=[A-Z] url 302 ctier=A
 # > 凤凰秀
 ^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid url reject
 ^https?:\/\/api\.fengshows\.com\/api\/launchAD url reject-img
-# > 雪球
+# > 雪球（倒计时还在）
 ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ url reject-200
 # > 21经济网
 ^https?:\/\/api\.21jingji\.com\/ad\/ url reject
