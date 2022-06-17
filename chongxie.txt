@@ -43,7 +43,7 @@ hostname = m.jd.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, www.baid
 #^https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
 # > 工银E生活
 ^https?:\/\/image2\.elife\.icbc\.com\.cn\/filepath\/elife\/2022\/*\/*\/*\/.*.jpg url reject-200
-# > 掌上生活
+# > 掌上生活（签到和设置功能打不开）
 ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/AdPlatformPublic\/[a-z0-9]{32}\.jpeg url reject-200
 # > 招商银行
 ^https?+:\/\/pic1cdn\.cmbchina\.com\/appinitads\/ url reject-200
