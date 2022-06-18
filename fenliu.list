@@ -1116,8 +1116,11 @@ host, ad.chelaile.net.cn, reject
 HOST, ad.12306.cn, REJECT
 # > 两步路
 HOST-SUFFIX, admobile.top, REJECT
-# > 皮皮虾（推荐视频不能预览）
+# > 抖音
 host-keyword,bds.snssdk.com, reject
+host-keyword,p6-ad-sign.byteimg.com, reject
+host-keyword,p3.pstatp.com, reject
+# > 皮皮虾（推荐视频不能预览）
 host-keyword,log-api.pangolin-sdk-toutiao-b.com, reject
 host-keyword,log-api.pangolin-sdk-toutiao.com, reject
 host-keyword,api-access.pangolin-sdk-toutiao.com, reject
