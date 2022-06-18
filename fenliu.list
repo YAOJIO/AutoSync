@@ -1117,6 +1117,7 @@ HOST, ad.12306.cn, REJECT
 # > 两步路
 HOST-SUFFIX, admobile.top, REJECT
 # > 皮皮虾（推荐视频不能预览）
+host-keyword,bds.snssdk.com, reject
 host-keyword,log-api.pangolin-sdk-toutiao-b.com, reject
 host-keyword,log-api.pangolin-sdk-toutiao.com, reject
 host-keyword,api-access.pangolin-sdk-toutiao.com, reject
