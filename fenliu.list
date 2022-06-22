@@ -1,7 +1,7 @@
 # > /*  APP开屏广告拦截，APP启动广告拦截！
 # > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
 # > a28413761  收集整理
-# > 更新时间  2022.06.18
+# > 更新时间  2022.06.22
 # > */  
 
 # > 光大银行阳光惠生活
@@ -33,8 +33,8 @@ ip-cidr, 203.107.1.1/24, reject
 host-keyword, paradisestatic.vivo.com.cn, reject
 # > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
 # > host-keyword, xqimg.imedao.com, reject
-# > 滴滴青桔
-host-keyword, pt-starimg.didistatic.com, reject
+# > 滴滴青桔（支付界面图片有误杀）
+# > host-keyword, pt-starimg.didistatic.com, reject
 # > 酷狗音乐
 host-keyword, searchrecommend.kugou.com, reject
 host-keyword, nbcollectretry.kugou.com, reject
