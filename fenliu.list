@@ -1,7 +1,7 @@
 # > /*  APP开屏广告拦截，APP启动广告拦截！
 # > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
 # > a28413761  收集整理
-# > 更新时间  2022.06.22
+# > 更新时间  2022.06.25
 # > */  
 
 # > 光大银行阳光惠生活
@@ -17,13 +17,15 @@ host-keyword, sdk.open.talk.getui.net, reject
 host-keyword, sdk-conf.getui.com, reject
 host-keyword, cm-10-138.getui.com, reject
 host-keyword, ads.95516.com, reject
-# >中信银行
+# > 中信银行
 HOST-SUFFIX,sis.jpush.io, reject
 HOST-SUFFIX,s.jpush.cn, reject
 HOST-SUFFIX,jpush.cn, reject
 HOST-SUFFIX,im64.jpush.cn, reject
 HOST-SUFFIX,im.jpush.cn, reject
 HOST-SUFFIX,jpush.html5.qq.com, reject
+# > 招钱进宝
+host-keyword, p26-be-pack-sign.pglstatp-toutiao.com, reject
 # > 哈啰
 host-keyword, assets.51downapp.cn, reject
 # > 叮嗒出行
