@@ -15,7 +15,8 @@ hostname = m.jd.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, www.baid
 # > ^https?+:\/\/(tysdk|ads)\.95516\.com url reject-dict
 # > ads.95516.com和tysdk.95516.com这两个域名都拦截
 # > 兴业银行（首页会有一小部分图片误杀）
-^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.(jpg|png)\?ver=20220[4-9]{1} url reject-200
+^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.(jpg|png)\?ver=20221[0-2]{1} url reject-200
+^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.(jpg|png)\?ver=20220[6-9]{1} url reject-200
 # > [a-zA-Z0-9]{32} 匹配32位的数字和大小写字母混合  [4-9]{1} 匹配4到9之间的其中一个数字
 # > 兴业银行好兴动（会弹窗解压失败，需手动关闭）
 ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip url reject-img
