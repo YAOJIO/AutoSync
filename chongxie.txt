@@ -34,6 +34,7 @@ hostname = m.jd.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, www.baid
 ^https:\/\/mcc.psbc.com:9090\/mcc\/resources\/[0-9]+\.(jpg|png) url reject-200
 # > [0-9]+\.(jpg|png)只拦截纯数字的jpg和png格式图片
 # > 邮储信用卡
+^https?:\/\/d\.psbc\.com:9091\/mcc\/resources\/.*.(jpg|png) url reject-200
 ^https://d.psbc.com:9091/mcc/resources/[0-9]+\.jpg url reject-200
 # > 买单吧
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ url reject-200
