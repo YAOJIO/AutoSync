@@ -163,15 +163,15 @@ hostname = m.jd.com, www.zhihu.com, api.zhihu.com, appcloud2.zhihu.com, www.baid
 # > 四季線上影視
 ^https?+:\/\/service\.4gtv\.tv\/4gtv\/Data\/(?>GetAD|ADLog) url reject-200
 # >微信公众号文章下方广告
-#^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint url reject
-#^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-img
-#^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video url reject
-#^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report url reject
-#^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
-#^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) url reject-img
-#^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject
-#^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject-200
-#^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[]
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint url reject
+^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-img
+^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video url reject
+^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report url reject
+^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
+^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) url reject-img
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject
+^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject-200
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[]
 # >> 网易新闻
 ^https?+:\/\/c\.m\.163\.com\/nc\/gl\/ url reject-200
 # >> 网易有钱
