@@ -1,0 +1,236 @@
+hostname = ios.fuliapps.com, apple.fuliapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, *.pipiapps.com, diary.7english.cn, app.biliintl.com, api.bilibili.com, , api-ad-product.huxiu.com, jad-api.jin10.com, mob.mddcloud.com.cn, api-mifit-cn2.huami.com, new-app-api.ylyk.com, guanyu.longfor.com, m.sd.10086.cn, app.peopleapp.com, wap.js.10086.cn, apis.lifeweek.com.cn, app02.vgtime.com:8080, apiios_dq.xiangha.com, appweb_dq.xiangha.com, 101.200.225.157, api.account.meitu.com, *.wtzw.com, bt.flashdown365.com, hotspot-unlimited.com, book.haitunwallet.com, api.shimo.im, article-api.smzdm.com, mob2015.kekenet.com, dict.eudic.net, yimuapp.com, api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, www.duitang.com, zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com,  m*.bybutter.com, pay.wecut.com, commerce-api.faceu.mobi, ulike-api3.faceu.mobi, commerce-i18n-api.faceu.mobi, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, revenuecat.lakecoloring.com, license.pdfexpert.com, appraven.net, scibug.com, user.ftmailbox.cn, api.lightricks.com, billing-ios.wallpaperscraft.com, api-sub.meitu.com, m2u-api.getkwai.com, gw.aoscdn.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, api.magictouch.design, bookapi.ellabook.cn, pro-status-service-prod.azurewebsites.net, gateway.ergedd.com, mid.zineapi.com, bmall.camera360.com, cutisanapi.imuuzi.com, server.yoyiapp.com, qianji.xxoojoke.com, xunji.implements.io, zy6kcqa01a.execute-api.us-east-2.amazonaws.com, user-kaji-api.b612kaji.com, micro-tool-api.lyaway.com, lapi.photomath.net, api.neuralprisma.com, api.woaoo.net, lchttpapi.xczim.com, web.vizmato.com, purchases.ws.pho.to, dayone.me, dayone.app, vstou.faxingwu.com, everest.castbox.fm, *.nebo.app, *.adobe..*, ipadcms.caixin.com,www.babybooks.top, zebra.maka.im,  xrckeji.com, xianbeikeji.com, quanzi.jizhangapp.com, api.yonekura.cn, panel.getdailyart.com, biz.caiyunapp.com, www.40sishi.com, outcut.szsszykj.com, picturebook.ipalfish.com, api2.fitplanapp.com, api.shayujizhang.com, r.51wnl-cq.com, api.dushu.io, getway.radio.cn, api.reface.video, www.helloshiyu.com, bbs.maibaapp.com, duoting.tatatimes.com, cm.szsszykj.com, api.flexibits.com, dbapi.ganbuguo.com, api.591master.com, www.mindmeister.com, api.pushover.net, subs.platforms.team, api.hulusaas.com, claritywallpaper.com,  ads.iconntech.com, media.deezer.com, 
+, 
+# > 结索
+# > Deezer解锁Hi-Fi订阅
+^https?:\/\/media\.deezer\.com\/v1\/get_url$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js
+# > 欲漫涩结索V漫画
+^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+# > 香蕉视频结索部分观看限制
+^https?:\/\/.+?\.(pipi|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|(\/|)vod\/reqplay\/) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
+# > NiChi 结索素材包
+^https?:\/\/m(p|ini-hk)\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/NiChi.js
+# > 堆糖结索V
+^https?:\/\/www\.duitang\.com\/napi\/vienna\/graphic\/template url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/duitangpro.js
+# > 石墨文档结索
+https://api.shimo.im/users/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/shimo.js
+# > 什么值得买结索
+^https:\/\/homepage-api.smzdm.com\/home url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/smzdm_remove_ads.js
+^https:\/\/haojia-api.smzdm.com\/home\/list url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/smzdm_remove_ads.js
+^https:\/\/article-api.smzdm.com\/article\/index_home_page url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/smzdm_remove_ads.js
+# > 可可英语结索V
+^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/kkyy.js
+# > 每日英语阅读/每日外刊结索课程
+^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus? url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mryy.js
+# > 网易蜗牛读书结索特权
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/wnyd.js
+# > 结索一木记账V
+^https?:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/YiMuJiZhang.js
+# > 海豚记账
+https:\/\/book\.haitunwallet\.com\/app\/vip\/status url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/HTJZ.js
+# > 结索闪电下载无限时长V
+^https?:\/\/bt\.flashdown365\.com\/resource2\?data\=\w{0,500}$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/ShanDianXiaZai.js
+# > 七猫小说结索终身V + 去除所有广告 + 无限下载权限 + 无限听书权限 + 无限阅读权限
+^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/QiMaoXiaoShuo.js
+# > 结索菜谱大全V
+^https?:\/\/apiios_dq\.xiangha\.com\/v\d\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/CaiPuDaQuan.js
+^https?:\/\/appweb_dq\.xiangha\.com\/center\/pay\/home url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/CaiPuDaQuan.js
+# > 马卡龙玩图结索订阅
+^https?:\/\/app\.api\.versa-ai\.com\/pay\/order\/iap\/check url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/MaKaLongWanTu.js
+# > Spotify部分结索premium 需iOS15 ,建议重新登录,音质不能设置为超高，搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播放
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+# > 醒图，Ulike，轻颜相机，vaporcam（四合一）结索结索V
+https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/commerce.js
+# > 美图秀秀(2022.01.17) 结索高级V（包括但不限于：付费海报模板、高级滤镜、高级素材等），无须登陆!
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js
+# > WPS结索超级V，wpsV，稻壳V
+^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+# > 有道云笔记结索V
+https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/ydybj.js
+# > 酷我音乐结索SV
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/Kuwo.js
+# > 百度网盘结索V，视频倍速播放     
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+# > 菠萝视频结索V无限看，没破解付费， 下载地址https://aff.polomv.com           
+^http:\/\/api\.myb6api\.(org|com):8080\/api\.php\/api\/users\/getBaseInfo url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/blsp.js
+# > 桃子视频结索V
+^http:\/\/api\.(.+)\.xyz\/fast-cloud\/user\/info url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/taozi.js
+# > 酷咪视频V无限看， 下载地址 km.app      
+^https:\/\/lginstaacademy\.com(\/\/api\/movie\/addPlay|\/\/api\/member|\/api\/video_clip\/play|\/api\/app\/message_list|\/api\/home\/index_recommend|\/\/api\/movie\/play\/|\/\/api\/vip\/index) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/kumiyw.js
+# > 韩剧TV结索全部特权
+^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/hanjuTV.js
+# > 爱美剧结索V
+^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/aimeiju.js
+# > 095 夏时VPN结索V（2022-05-03）@ddgksf2013
+^https?:\/\/hotspot-unlimited\.com\/addressx2\/ url response-body vip":"1 response-body vip":"0
+# > 093 Lake结索V（2022-04-20）@ddgksf2013
+https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://raw.githubusercontent.com/28413761/QX/main/jiesuo/lakepro.js
+# > 090 PdfExpert Pro 结索V权限（2022-03-26）@ddgksf2013：无需登录，V恢复成功后，🟢建议关闭PdfExpert应用的联网权限
+^https?:\/\/license\.pdfexpert\.com\/api\/\d\.\d\/\w{9}\d\/\w{12}\/(state$|refresh$|check$) url script-request-body  https://raw.githubusercontent.com/28413761/QX/main/jiesuo/pdfexpert.js
+# > 089 appraven美化（2022-03-23）@ddgksf2013
+^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/appraven.js
+# > 088 Symbolab 结索订阅（2022-03-22）
+^https?:\/\/scibug\.com\/appleSubscriptionValidate$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/symbolab.js
+# > 087 FT中文網结索V（2022-03-06）@ddgksf2013
+^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/ftchinese.js
+# > 086 Videoleap结索V（2022-03-05）@ddgksf2013：有待进一步测试
+https?:\/\/api\.lightricks\.com\/subscription\?bundle=com\.lightricks\.Enlight-Video url script-echo-response https://raw.githubusercontent.com/28413761/QX/main/jiesuo/videoleap.js
+# > 085 Wallcraft结索V（2022-03-04）@ddgksf2013
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url response-body active":false response-body active":true
+# > 084 Wink结索V（2022-03-04）@ddgksf2013
+https?:\/\/api-sub\.meitu\.com\/v\d\/user\/vip_info\.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/wink.js
+# > 083 一甜相機结索V（2022-02-27）@ddgksf2013
+https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v\d\/vip\/vipUserInfo url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/yitianxiangji.js
+# > 082 傲軟摳圖结索V（2022-02-25）@ddgksf2013
+https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/apowersoft.js
+# > 081 布丁鎖屏结索V（2022-02-21）@ddgksf2013
+https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser url script-echo-response https://raw.githubusercontent.com/28413761/QX/main/jiesuo/budingsuoping.js
+# > 080 起伏结索V（2022-02-19）@ddgksf2013
+https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/qifu.js
+# > 079 Picsart美易结索V（2022-02-19）@ddgksf2013
+^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/picsart.js
+# > 078 圖圖記賬结索V（2022-02-18）@ddgksf2013
+https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/tutujizhang.js
+# > 077 咿啦看書结索V（2022-02-17）@ddgksf2013
+https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/elabook.js
+# > 076 RNI结索高级V（2022-02-15）by ddgksf2013
+https://pro-status-service-prod.azurewebsites.net/api/item url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/rf.js
+# > 075 儿歌点点(2022-02-08) by ddgksf2013
+http:\/\/gateway\.ergedd\.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/egdd.js
+# > 074 varlens(2022-02-02) by ddgksf2013
+^https?:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/varlens.js
+# > 073 Mix（2022-02-01）by ddgksf2013
+^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mix.js
+# > 072 Cutisan（2022-01-30）by ddgksf2013
+https://cutisanapi.imuuzi.com/api/Home/index url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/cutisan.js
+# > 071 fimo（2022-01-28）by ddgksf2013
+^https://server.yoyiapp.com/fimo-user/user$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/fimo.js
+# > 070 钱迹（2022-01-25）by ddgksf2013
+https?://qianji.xxoojoke.com/(vip/configios|budget/submit) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/qj.js
+# > 069 训记 (2022-01-25) by ddgksf2013
+https://xunji.implements.io/whole_user_info url response-body vipDay":0 response-body vipDay":360
+# > 068 hyperweb (2022-01-25) by ddgksf2013
+^https://zy6kcqa01a.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/hyperweb.js
+# > 067 B612咔叽 (2022-01-25) by ddgksf2013
+https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/612.js
+# > 066 酷我音乐解除下载权限 (2022-01-25) by ddgksf2013
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d url script-request-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/kuwodl.js
+# > 065 通话录音（2021-06-25）by ddgksf2013
+http://micro-tool-api.lyaway.com/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/thly.js
+# > 063 Photomath （2021-06-02） by ddgksf2013
+https://lapi.photomath.net/v4/me url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/poh.js
+# > 062 Prisma （2021-05-24） by ddgksf2013
+https://api.neuralprisma.com/receipt/ios/status/prisma/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/psa.js
+# > 061 京东取消店铺V（2021-05-16） by ddgksf2013
+https://api\.m\.jd\.com\/client\.action\?appid=jd_shop_member&functionId=getShopMemberCardDetail&.+ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/unbind.js
+# > 060 我奥篮球 （2021-05-15） by photonmang
+http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/walq.js
+# > 059 西窗烛 （2021-05-14） by ddgksf2013
+https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/xcz.js
+# > 058 Vizmato（2021-05-12） by ddgksf2013
+https://web.vizmato.com/itunesreceipt_v5.php url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/vm.js
+# > 057 ToonMe（2021-05-05） by ddgksf2013
+https://purchases.ws.pho.to/api/v2/apple/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/tm.js
+# > 056 酷我皮肤（2021-04-25） by ddgksf2013
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/theme.js
+# > 055 Dayone（2021-05-15） by langkhach
+https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/dayone.js
+# > 054 卡通相机（2021-04-22） by ddgksf2013
+http://vstou.faxingwu.com/huihua/user/getUser url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/ktxj.js
+# > 053 Castbox（2021-04-18） by ddgksf2013
+https://everest.castbox.fm/auth/user/properties\?country=\w+&raw=1 url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/cb.js
+# > 052 Keep（2021-04-18） by ddgksf2013
+;https://api.gotokeep.com/(.+/subject|.+/dynamic|.+/coursePlus/.+|.+/status|.+/tab|.+/my|.+/start|.+/join|.+/complete|.+/detail/.+|.+/preview|.+/auth|.+/tab|.+/days) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/keep_new.js
+# > 作业帮
+https://mall.zuoyebang.com/mall/goods/audio/voice/list?audioId=\d+ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/zuoyebang.js
+https://apivip.zybang.com/vipols/vip/viphomev1?.+ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/zuoyebang.js
+# > 050 PdfExpert（2021-04-03） by ddgksf2013
+;https:\/\/license\.pdfexpert\.com\/api\/.+\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/pdfexpert.js
+# > 049  MolyCam and VaporCam （2021-04-02） by ddgksf2013
+https:\/\/pay\.wecut\.com\/apple\/(iosVerifyReceipt|iosAppVerifyReceipt)\.php url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mv.js
+# > 048 Myscript Nebo（2021-03-21） by ddgksf2013
+^https?:\/\/.*\.nebo\.app\/api\/.*\/inapppurchase\/apple\/receipt url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/nebo.js
+# > 047 Photoshop（2021-03-21） by ddgksf2013
+^https:\/\/.*\.adobe\..*\/mobile_profile\/nul\/v\d$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/ps.js
+# > 046 财新周刊（2021-03-20） by ddgksf2013
+http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/cxzk.js
+# > 045 医考帮（2021-03-13） by ddgksf2013
+https://api.yikaobang.com.cn/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/ykb.js
+# > 044 百度云（2021-03-10） by ddgksf2013
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/bdcloud.js
+# > 043 儿童睡前故事 （2021-01-31） by ddgksf2013
+https://www.babybooks.top/v0/profile url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/etsqgs.js
+# > 042 斑马海报 （2021-01-30） by ddgksf2013
+https://zebra.maka.im/api/user/info url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/bmhb.js
+# > 041 读书笔记 （2021-01-06） by ddgksf2013
+https://xrckeji.com/union/app/user/query url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mzjz.js
+# > 040 小习惯 （2021-01-06） by ddgksf2013
+https://xianbeikeji.com/daily/app/user/query url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mzjz.js
+# > 039 萌猪记账 （2021-01-06） by ddgksf2013
+https://xrckeji.com/itally/app/user/query url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mzjz.js
+# > 038 Scanner （2020-12-19） by ddgksf2013
+https://license.pdfexpert.com/api/2.0/scanner/subscription/refresh url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/sp.js
+# > 037 圈子记账 （2020-12-14） by ddgksf2013
+https://quanzi.jizhangapp.com/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/qzjz.js
+# > 035 用电助手 （2020-12-06） by ddgksf2013
+https://api.yonekura.cn/3.6.8/uicommon/getuser url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/cdzs.js
+# > 美颜相机结索紫钻V
+^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/MeiYanXiangJi.js
+^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/MeiYanXiangJi.js
+# > 032 每日艺术 （2020-11-23） by ddgksf2013
+https://panel.getdailyart.com/APIMobile/users/single url response-body account_type":"0 response-body account_type":"2
+# > 结索 彩云天气/彩云天气Pro SV（跟苹果自带天气冲突，默认关闭）
+# > ^https?:\/\/biz\.caiyunapp\.com\/v\d\/user url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/CaiYunWeather.js
+# > 030 豌豆清单 (2020-11-12) by ddgksf2013
+^https:\/\/www\.40sishi\.com\/list\/user\/profile$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/wdqd.js
+# > 029 Quicut (2020-11-12) by ddgksf2013
+http://outcut.szsszykj.com/api/OverseasPay/GetVip url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/qc.js
+# > 028 伴鱼绘本 (2020-11-09) by ddgksf2013
+https://picturebook.ipalfish.com/pfapi(/profile/picturebook/get|/base/growthsystem/user/vip/equity/get) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/byhb.js
+# > 027 Document （2020-11-08） by ddgksf2013
+;https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/documents.js
+# > 026 Fitplan （2020-11-07） by ddgksf2013
+https://api2.fitplanapp.com/fitplan-server/v2/user/profile url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/fitplan.js
+# > 025 鲨鱼记账 （2020-11-04） by ddgksf2013
+https://api.shayujizhang.com/account/detail/info/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/syjz.js
+# > 024 万年历（2020-10-28） by ddgksf2013
+https://r.51wnl-cq.com/Api/User/GetExtInfo url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/wnl.js
+# > 023 樊登读书 （2020-10-26） by ddgksf2013
+https://api.dushu.io/Album/Info url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/fdds.js
+# > 022 云听 （2020-10-20） by ddgksf2013
+http://getway.radio.cn/app* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/yt.js
+# > 021 Reface （2020-10-13） by ddgksf2013
+https://api.reface.video/api/reface/v1/iosSubscription url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/reface.js
+# > 020 睡眠助手 （2020-10-10） by ddgksf2013
+https://www.helloshiyu.com/sleep/user/profile url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/smzs.js
+# > 018 汉字的故事 （2020-10-02） by ddgksf2013
+https://avoscloud.com/1.1/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/hzdgs.js
+# > 017 小妖精美化 （2020-10-02） by ddgksf2013
+https://bbs.maibaapp.com/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/xyjmh.js 
+# > 016 英语阅读 （2020-09-26） by ddgksf2013
+^http:\/\/duoting\.tatatimes\.com\/tataeraapi\/api\.s\?h=QueryVipUser url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/englishread.js 
+# > 015 趣制作（2020-09-25） by ddgksf2013
+https://cm.szsszykj.com/interface/GetVip.php url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/qzz.js
+# > 014 Fantastical（2020-09-24） by ddgksf2013
+^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/fantastical.js
+# > 012 Done （2020-09-14） by ddgksf2013
+http://dbapi.ganbuguo.com/user/userinfo url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/done.js
+# > 011 手机硬件管家 (2020-09-12) by ddgksf2013
+http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/phoneyjgj.js
+# > 010 MeisterTask (2020-09-10) by ddgksf2013
+https://www.mindmeister.com/api/v2/licenses/meistertask url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/meistertask.js
+# > 009 Pushover （2020-09-05） by ddgksf2013
+^https://api.pushover.net/1/messages.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/pushover.js
+# > 008 Productive （2020-09-05） by ddgksf2013
+^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/productive.js
+# > 007 葫芦时刻 （2020-09-05） by ddgksf2013
+^https:\/\/api\.hulusaas\.com\/api\/* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/hulu.js
+# > 006 蜗牛睡眠 （2020-09-06） by ddgksf2013
+^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/wnsm.js
+# > 004 大象冥想 （2020-09-04） by ddgksf2013
+^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/dxmx.js
+# > 003 克拉壁纸 （2020-09-03） by ddgksf2013
+^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/clarity.js
+# > 002 lensa （2020-09-02） by ddgksf2013
+^https?:\/\/subscription-service\.neuralprisma\.com\/subscription_get url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/lensa.js
+# > 001 moo （2020-08-31)） by ddgksf2013
+https://diary.7english.cn:2433//api/user/userInfo url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/moo.js
