@@ -18,6 +18,7 @@ host-keyword, api.smoot.apple.cn, direct
 # > 苹果iMessage服务
 host, init.ess.apple.com, direct
 # > 苹果其他服务
+host-keyword, humb.apple.com, direct
 host, smp-device-content.apple.com, direct
 host-keyword, api-adservices.apple.com, direct
 host-keyword, ls.apple.com, direct
